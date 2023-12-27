@@ -1,0 +1,124 @@
+.cabecera {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imglogo {
+  width: 175px;
+}
+
+.botones {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botones a {
+  text-decoration: none;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: black;
+  background-color: #ffc700;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.botones a:hover {
+  background-color: #d19100;
+}
+
+.contenido-sin-inicio {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.contenido1 {
+  display: flex;
+  align-items: center;
+  gap: 15vh;
+}
+
+.info-contenido1 {
+  text-align: start;
+}
+
+.info-contenido1 > h1 {
+  font-size: 3em;
+}
+
+.imgcont {
+  width: 40%;
+}
+
+.contenido2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contenido2>h2{
+  font-size: 2em;
+  margin-bottom: 3rem;
+}
+
+.carlitos {
+  width: 10vw;
+  margin: 0 auto;
+}
+
+.objetivos {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+}
+
+.pie {
+  padding: 10px;
+  background-color: black;
+}
+
+.pie-flex {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enlacesimg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.enlacespag {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: end;
+}
+
+.pie h3,
+.enlacespag,
+.enlacespag a,
+.enlacesimg,
+.fi,
+.ti,
+.ii {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.pie h3 {
+  margin-right: 30px;
+}

@@ -1,0 +1,186 @@
+.evento-box-flex {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(248, 240, 240);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.evento-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.header-evento {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.titulo-evento {
+    font-size: 3em;
+    margin: 0;
+}
+
+.botones-evento{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.enlace-familia-evento {
+    text-decoration: none;
+    font-weight: 700;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.direct-familia {
+    background-color: #ffc700;
+    color: black;
+}
+
+.direct-familia:hover {
+    background-color: #d19100;
+}
+
+.in-evento{
+    background-color: #3a5ba0;
+    color: white;
+}
+
+.join-evento {
+    background-color: #ffc700;
+    color: black;
+}
+
+.join-evento:hover {
+    background-color: #d19100;
+}
+
+.need-familia {
+    background-color: #dc3545;
+    color: white;
+}
+
+.enlace-familia-evento>p {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.15em;
+}
+
+.join-evento{
+    cursor: pointer;
+}
+
+.more-event-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.more-event-info>p {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.15em;
+}
+
+.caja-evento {
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+}
+
+.imagen-evento {
+    width: 55%;
+    border-radius: 5px;
+}
+
+.caja-evento-info {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.enlace-mapa > img {
+    width: 75%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.caja-evento-info>p {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin:15px 0;
+    font-size: 1.15em;
+}
+
+.miembros-evento {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.miembros-evento titulo-evento{
+    font-size: 2em;
+    margin: 0;
+}
+
+.miembros-inside {
+    padding: 10px 0;
+    max-width: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.intereses-inside{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.miembros-iniciales {
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1em;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #ffc700;
+}
+
+.titulo-descripcion-evento {
+    font-size: 2em
+}
+
+.descripcion-evento {
+    max-width: 65%;
+    height: 100%;
+    line-height: 1.2em;
+}

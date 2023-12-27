@@ -1,0 +1,112 @@
+
+.contenido {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.25em;
+    min-height: 80vh;
+}
+
+.secciones {
+    text-decoration: none;
+    height: 35vh;
+}
+
+.proximos-eventos {
+    width: 70%;
+}
+
+.busca-familia {
+    width: 27%;
+}
+
+.eventos-familias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.eventos-ciudad {
+    width: 48%;
+}
+
+.tradiciones {
+    width: 48%;
+}
+
+.evento-cercano {
+    width: 27%;
+}
+
+.caja {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.pe {
+    background-image: url("../../../../public/img/InicioCon/peimagen-min.jpg");
+}
+
+.bf {
+    background-image: url("../../../../public/img/InicioCon/bf-min.jpg");
+}
+
+.ec {
+    background-image: url("../../../../public/img/InicioCon/ec-min.jpg");
+}
+
+.evc {
+    background-image: url("https://img.freepik.com/foto-gratis/grupo-fanaticos-reunidos-estadio-thge-animando_1303-18617.jpg?w=1380&t=st=1701601669~exp=1701602269~hmac=8a9c509f50f3bb91dcd72fd7004dc5ec4fae3e137edde52b50f8fe8471e0f746");
+}
+
+.tc {
+    background-image: url("../../../../public/img/InicioCon/tc.jpg");
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.caja:hover .overlay {
+    background: rgba(255, 199, 0, 0.8);
+}
+
+.caja:hover .text {
+    color: black;
+    font-size: 1.75rem;
+}
+
+.caja:hover {
+    box-shadow: 0 0 20px black;
+}

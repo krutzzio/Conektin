@@ -1,0 +1,73 @@
+.body-webs {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.encabezado-ciudad {
+    background-color: #3a5ba0;
+}
+
+.body-webs-header {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.titulo-ciudad-eventos {
+    font-size: 2.5em;
+    text-align: center;
+    color: #ffc700;
+    text-shadow: #d6a802f4;
+    margin: 0;
+}
+
+.subtitulo-ciudad-eventos {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+.contener-webs {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.webs-eventos h2{
+    color: #bd9609;
+    font-size: 2em;
+}
+
+.detalle-web {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.evenNoticias{
+    flex-direction: row-reverse;
+}
+
+
+
+.imagen-web{
+    width: 45%;
+    max-height: 350px;
+}
+
+.resumen-web {
+    width: 50%;
+}
+
+.nombre-web {
+    color: #bd9609;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.1s;
+    font-size: 1.2em;
+}
+
+.nombre-web:hover {
+    color: #745f16;
+    text-decoration: none;
+}

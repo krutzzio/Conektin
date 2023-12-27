@@ -1,0 +1,21 @@
+.contenido-eventos-intereses {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eventos-intereses {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.eventos-parati {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.no-interes-evento {
+    text-align: center;
+}

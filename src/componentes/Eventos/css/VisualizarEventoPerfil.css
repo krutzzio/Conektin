@@ -1,0 +1,40 @@
+.contenido-evento-perfil {
+    height: 250px;
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+}
+
+.contenido-evento-perfil:hover {
+    background-color: #ffc700;
+}
+
+.contenido-evento-perfil>img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.contenido-evento-perfil>.flex-evento-perfil>.info-inicial-perfil {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.contenido-evento-perfil .info-inicial-perfil>h3 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+h3>.nombre-familia-perfil {
+    font-weight: 100;
+}

@@ -1,0 +1,31 @@
+.intereses{
+    display: flex;
+    width: max-content;
+    height: 45px;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to bottom right, #d19100, #ffc700); 
+    border-radius: 5px 0px;
+    padding: 0 5px;
+    margin: 10px;
+}
+
+.interes{
+    font-size: inherit;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.interes h4{
+    margin: 0;
+}
+
+.get-interes {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.get-interes:hover {
+    color: #444;
+}

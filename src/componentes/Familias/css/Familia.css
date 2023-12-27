@@ -1,0 +1,142 @@
+.familia-flex {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    gap: 1.5em;
+    background-color: rgb(248, 240, 240);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header-familia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.familia .titulo-familia {
+    font-size: 3em;
+    margin: 0;
+    width: 38.5%;
+}
+
+.section-fam-header {
+    display: flex;
+    width: max-content;
+    gap: 1em;
+}
+
+.section-fam-header > a {
+    color: black;
+    text-decoration: none;
+}
+
+.div-fam-span > span{
+    font-size: 1.4em;
+    background-color:#3a5ba0;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.crear-evento > span{
+    background-color: #ffd700;
+    color: black;
+    transition: 0.2s;
+}
+
+.crear-evento > span:hover{
+    background-color: #d19100;
+    color: black;
+}
+
+.div-fam {
+    font-size: 1.4em;
+}
+
+.group-icon {
+    font-size: 1.3em;
+}
+
+.button-join-fam {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: max-content;
+    background-color: #ffc700;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-join-fam:hover {
+    background-color: #d19100;
+}
+
+.info-familia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-miembros {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    gap: 2em;
+}
+
+.img-familia {
+    width: 55%;
+    border-radius: 5px;
+}
+
+.miembros-familia {
+    height: 100%;
+    width: 40%;
+}
+
+.miembros-familia>h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.miembrosFlex {
+    display: flex;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.descripcion-Familia {
+    width: 30%;
+    height: 100%;
+}
+
+.descripcion-Familia>p {
+    margin: 0;
+    height: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.descripcion-Familia>h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.eventos-familia {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.eventos-familia>h2 {
+    text-align: center;
+}

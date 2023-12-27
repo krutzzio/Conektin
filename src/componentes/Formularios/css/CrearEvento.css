@@ -1,0 +1,102 @@
+#crearEvento {
+    margin-top: 50px;
+}
+
+#formularioEvento {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #1f4690;
+}
+
+#formularioEvento input {
+    margin: 10px 0;
+}
+
+input#nombreEvento {
+    height: 40px;
+    width: 750px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+input#fechaEvento {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+input#calle{
+    height: auto;
+    color: black;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+input#numeroCalle,#cp{
+    width: 100px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+input#cp{
+    color: black;
+}
+
+textarea#descripccion {
+    color: black;
+    font-size:large;
+    font-weight: lighter;
+    height: 200px;
+    width: 750px;
+    resize: none;
+    padding: 10px;
+}
+
+label#calle, #fecha, #numeroCalle, #cp, #añadir-intereses-evento {
+    color: #ffc700;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+label#nombreEvento,
+#descripccion {
+    font-size: 2em;
+    font-weight: 900;
+    color: #ffc700;
+}
+
+#crearEvento p {
+    color: white;
+}
+
+.interesesEvento {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submit2 {
+    font-family: inherit;
+    font-weight: 700;
+    display: block;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: black;
+    background: #ffc700;
+    border: none;
+    border-radius: 8px;
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    transition: 0.2s;
+    display: block;
+}
+
+.submit2:hover {
+    background: radial-gradient(#ffe5b4, #d19100)
+}
